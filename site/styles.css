@@ -1,0 +1,37 @@
+.title {
+    color: rgb(2, 164, 175);
+    font-size: 50px;
+}
+
+nav, #section1 {
+    color: purple;
+}
+
+h1 {
+    text-align: center;
+}
+
+section > article {
+    color: green;
+}
+
+ul li {
+    color: green;
+    list-style: none;
+}
+
+.menuButton:link, .menuButton:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.menuButton:hover, .menuButton:active {
+    background-color: red;
+    color: purple;
+}
